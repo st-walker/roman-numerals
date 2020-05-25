@@ -1,7 +1,7 @@
 # roman_numerals Code Kata
 
 ```
-$ cmake ../ && cmake --build . && make unit
+$ mkdir build && cd build && cmake ../ && cmake --build . && make unit
 ```
 ## License(s)
 
