@@ -36,5 +36,5 @@ add_test (Unit roman_numeralstest)
 # And a custom target as a convenience for running "make unit" as a
 # specific target to support the TDD cycle
 add_custom_target(unit
-  COMMAND ${CMAKE_BINARY_DIR}/roman_numeralstest --gtest_color=true
+  COMMAND ${CMAKE_BINARY_DIR}/test/roman_numeralstest --gtest_color=true
   )
